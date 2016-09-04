@@ -1,0 +1,945 @@
+/* -----------Colors------------ */
+
+/* dark grey: #2f2f2f */
+/* purple: #5a0ab7 */
+/* blue #2980b9 */
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #fff;
+	color: #2f2f2f;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-rendering: optimizeLegibility;
+}
+
+.clearfix { zoom: 1; }
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+.row {
+	max-width: 1500px;
+	margin: 0 auto; /* top and bottom 0; left and right auto */
+}
+
+section {
+	padding: 0px 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+.box-small {
+	padding: 2%;
+}
+
+.box-contact {
+	width: 80%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.bolder {
+	font-weight: 700;
+}
+.fb-page {
+	width: 100%;
+	margin-top: 30%;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.twitter-timeline {
+	float: right;
+	display: inline-block;
+	
+}
+
+
+/* ----- HEADINGS ----- */
+
+h1,
+h2,
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	margin: 0;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 250%;
+	text-align: center;
+}
+
+
+h1:after {
+	display: block;
+	height: 2px;
+	background-color: #2980b9;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+h2 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 200%;
+	text-align: center;
+}
+
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #2980b9;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 150%;
+	text-align: left;
+	margin-top: 20px;
+}
+
+h3:after {
+	display: block;
+	height: 2px;
+	background-color: #2980b9;
+	content: " ";
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 120%;
+	text-align: left;
+	margin-top: 10px;
+	font-weight: 200;
+}
+
+h5 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 100%;
+	text-align: left;
+	margin-top: 10px;
+	font-weight: 200;
+}
+
+
+.float-right {
+	float: right;
+}
+
+.form-section {
+	margin-top: 30px;
+}
+
+.font-smaller {
+	font-size: 80%;
+}
+
+/* ----- PARAGRAPHS ----- */
+
+.long-copy {
+	width: 60%;
+	margin-left: 20%; /* half of remaining 30% of unused space */
+	margin-bottom: 20px;
+}
+
+.med-copy {
+	width: 85%;
+	margin-left: 5%; 
+}
+
+.short-copy {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-top: 20px;
+	line-height: 150%;
+}
+
+/* ----- ICONS ----- */
+
+.social-links-header i { 
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 150%;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-top: 15%;
+}
+ 
+.fa-facebook {
+ background: #3b5998;
+} 
+.fa-instagram {
+ background: #007bb6;
+}
+.fa-twitter {
+ background: #00aced;
+}
+
+.social-links-header a:link, 
+.social-links-header a:visited {
+	transition: all 0.2s ease-in-out;
+}
+
+.social-links-header a:hover {
+	opacity: .7;
+}
+
+.icon-small {
+	display: inline;
+	color: #2980b9;
+	margin-top: 10px;
+	text-align: left;
+}
+.inline {
+	display: inline;
+	margin-top: 20px;
+}
+.icon-big {
+    font-size: 200%;
+    display: block;
+    color: #2980b9;
+    text-align: left;
+}
+
+
+/* ----- IMAGES ----- */
+
+.inline-img-small {
+	display: inline;
+	width:90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 10px;
+}
+
+
+.inline-img-med {
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.inline-img-med-car {
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.inline-img-xsmall {
+	display: inline;
+	width: 50%;
+	height: auto;
+	margin-left: 0%;
+	margin-top: 10px;
+	padding: 0 15px 0 10px;
+	float: right;
+}
+
+.inline-img {
+	display: inline;
+	width: 70%;
+	height: auto;
+	margin-right: 0%;
+	margin-top: 20px;
+}
+
+
+figure {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+figure img {
+	max-width: 100%;
+	display: block;
+}
+
+figcaption {
+	font-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2f2f2f;
+	color: #fff;
+}
+
+figcaption h5 {
+	font-size: 150%;;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #fff;
+	margin-top: 70px;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* HEADERS */
+/* ----------------------------------------------- */
+
+.header-img {
+	background-image: url(img/foster2.jpg);
+	height: 75vh; 	/* 100% of viewport */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+.foster-img {
+	background-image: url(img/foster.jpg);
+	height: 75vh; /* 100% of viewport */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+.adopt-img {
+	background-image: url(img/adopt.jpg);
+	height: 75vh; /* 100% of viewport */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+.donate-img {
+	background-image: url(img/donate.jpg);
+	height: 75vh; /* 100% of viewport */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+.contact-img {
+	background-image: url(img/hero.jpg);
+	height: 75vh; /* 100% of viewport */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+	background-attachment: fixed;
+}
+
+.logo {
+	height: auto;
+	width: auto;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	position: absolute;
+	z-index: 0;
+}
+
+
+
+/* ----------------------------------------------- */
+/* NAVIGATION */
+/* ----------------------------------------------- */
+
+/*--------- Main Nav ------*/
+
+nav {
+	width: 100%;
+/*	transform: translate(0%, 1500%);*/
+}
+
+nav i {padding: 0 10px;}
+
+.main-nav {
+	width: 100%;
+	list-style: none;
+	background-image: url(nav_rainbow.jpg);
+	height: 55px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding: 10px 0;
+	font-size: 140%;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	text-decoration: none;
+	color: #2f2f2f;
+	transition: color 0.10s, font-weight 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	color: #2980b9;
+	font-weight: bold;
+}
+
+
+
+/* Mobile Nav */
+
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	margin-right: 30px;
+	font-size: 300%;
+	color: #50d9cf;
+	border: 3px solid #fff;
+}
+
+/* ----------------------------------------------- */
+/* HOME */
+/* ----------------------------------------------- */
+
+.section-home img { 
+	display: inline-block;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.section-home p {padding: 0 10px 0 0;}
+
+/* ----------------------------------------------- */
+/* FOSTER */
+/* ----------------------------------------------- */
+
+.section-foster-imgs {
+	padding-top: 0;
+}
+
+.foster-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.foster-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.section-foster-application h2 {
+	margin-top: 20px;
+}
+
+.section-foster-application a:link,
+.section-foster-application a:visited {
+	display: block;
+	color: #2980b9;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 200;
+	transition: font-weight 0.2s;
+}
+
+.section-foster-application a:hover,
+.section-foster-application a:active {
+	font-weight: bold;
+}
+
+.foster-showcase figure {
+	overflow: hidden;
+}
+
+.foster-showcase figure img {
+	transition: transform 0.4s;
+}
+
+.foster-showcase figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: left;
+	line-height: 150%;
+	backface-visibility: hidden;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.foster-showcase figure:hover figcaption,
+.foster-showcase figure.cs-hover figcaption {
+	opacity: 0.85;
+	transform: translate(15px, 15px);
+}
+
+
+/* ----------------------------------------------- */
+/* ADOPT */
+/* ----------------------------------------------- */
+
+.section-process {
+	padding: 0px;
+	margin-bottom: 30px;
+}
+.steps-box {
+	margin-top: 20px;
+}
+
+.steps-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 7%;
+}
+
+.steps-box:last-child {
+	padding-left: 3%;
+}
+
+.steps-photo {
+	width: 60%;
+	float: right;
+}
+
+.appl-photo1 {
+	width: 70%;
+	float: right;
+	padding-top: 10px;
+}
+
+.appl-photo2 {
+	width: 70%;
+	float: left;
+	padding-top: 10px;
+}
+
+.adopt-steps {
+	margin-right: 80px;
+	margin-bottom: 30px;
+}
+
+.adopt-steps div {
+	color: #2980b9;
+	border: 2px solid #2980b9;
+	display: inline-block;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	font-size: 150%;
+	margin-right: 10px;
+}
+
+.section-process {
+	width: 100%;
+	background-image: url(img/005-Grunge-Paper.png);
+	padding: 30px 0 0 0;
+	margin-bottom: 0;
+		
+}
+
+.section-foster-imgs {
+	padding: 0;
+	margin: 0;
+}
+
+.section-fee {
+	width: 100%;
+	background-image: url(img/005-Grunge-Paper.png);
+}
+
+.adoptapet-widget {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.widget-box {
+	display: block;
+	float: right;
+	margin-left: 30px;
+}
+
+
+
+.section-adopt-application a:link,
+.section-adopt-application a:visited,
+.section-adopt a:link,
+.section-adopt a:visited {
+	display: block;
+	color: #2980b9;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 140%;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 200;
+	transition: font-weight 0.2s;
+}
+
+.section-adopt-application a:hover,
+.section-adopt-application a:active,
+.section-adopt a:hover,
+.section-adopt a:active {
+	font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+/* DONATE */
+/* ----------------------------------------------- */
+
+.paypal {
+	margin-top: 20px;
+	margin-left: 35%;
+}
+
+.section-howto-donate {
+	width: 100%;
+	background-image: url(img/005-Grunge-Paper.png);
+	padding: 20px 0;
+}
+
+.section-howto-donate a:link,
+.section-howto-donate a:visited,
+.section-other-donate a:link,
+.section-other-donate a:visited {
+	display: block;
+	color: #2980b9;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.section-howto-donate a:hover,
+.section-howto-donate a:active,
+.section-other-donate a:hover,
+.section-other-donate a:active {
+	font-weight: bold;
+}
+
+
+.section-donate img {
+	display: block;
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+.section-other-donate img {width: 85%;}
+
+
+
+
+/* ----------------------------------------------- */
+/* CONTACT/FAQs */
+/* ----------------------------------------------- */
+
+.section-contact a:link,
+.section-contact a:visited {
+	display: block;
+	color: #2980b9;
+	text-decoration: none;
+	text-align: left;
+}
+
+.section-contact a:hover,
+.section-contact a:active {
+	font-weight: bold;
+} 
+
+.section-faqs a:link,
+.section-faqs a:visited {
+	display: inline;
+	color: #2980b9;
+	text-decoration: none;
+}
+
+.section-faqs a:hover,
+.section-faqs a:active {
+	font-weight: bold;
+}
+
+.contact-photo1 {
+	width: 95%;
+	padding-top: 20px;
+}
+
+.contact-photo2 {
+	width: 95%;
+	padding-top: 20px;
+}
+
+.p-faq {
+	text-align: right;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 120%;
+}
+
+.section-faqs span { 
+	line-height: 200%;
+	margin-left: 15%;
+}
+
+.section-faqs p {padding-right: 30px;}
+
+/* ----------------------------------------------- */
+/* 4-LEGGED RACE */
+/* ----------------------------------------------- */
+
+.fourLBG {
+	background-image: url(img/fourlegged.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Oldenburg', cursive;
+	font-size: 16px;
+	color: #000;
+}
+
+.fourLP {
+	padding: 5px;
+	margin-top: 0px;
+}
+
+.fourLPbold {
+	font-weight: bold;
+	display: inline;
+	
+}
+
+.fourLH1 {
+	font-family: 'Slackey', cursive;
+	color: #8335ee;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 1px 2px #0f82f1;
+}
+.fourLH2 {
+	font-family: 'Slackey', cursive;
+	color: #0f82f1;
+	font-size: 180%;
+	text-align: center;
+	text-shadow: 1px 1px #4e4d4d;
+	margin-top: 10px;
+}
+
+.fourLH3 {
+	font-family: 'Oldenburg', cursive;
+	color: #0f82f1;
+	font-size: 160%;
+	text-align: center;
+	text-shadow: 1px 1px #4e4d4d;	
+}
+
+.fourLH4 {
+	font-family: 'Oldenburg', cursive;
+	color: #8335ee;
+	font-size: 140%;
+	text-align: left;
+	text-shadow: 1px 1px #0f82f1;	
+}
+
+.fourLimg {
+	float: left;
+	display: inline;
+	height: 280px;
+	text-decoration: none;
+}
+
+.vivalogo {
+	height: auto;
+	width: 90%;
+	float: right;
+	padding-top: 20px;
+}
+
+.gif {
+	float: left;
+	width: 99%;
+}
+
+.early {
+	float: left;
+	width: 35%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.early2 {
+/*	float: left;*/
+	width: 99%;
+	height: auto;
+	margin: auto;
+}
+
+.inline-float {
+	display: inline;
+	margin-right: 5px;
+	float: left;
+}
+
+.marginbottom {
+	margin-bottom: 50px;
+	float: left;
+}
+
+#fourlegged {font-family: 'Slackey', cursive;
+	color: #8335ee;
+}
+
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+	color: #fff;
+	background-image: url(nav_rainbow.jpg);
+	background-size: cover;
+	width: 100%;
+	padding: 10px 0;
+}
+
+footer p {
+	float: left;
+	font-size: 80%;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:hover,
+footer a:active {
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.social-links {
+	list-style: none;
+	float: right;
+	margin-left: 50px;
+}
+
+.social-links li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+.social-links li:last-of-type {
+	margin-right: 100px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #2f2f2f;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 150%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+	color: #3b5998;
+}
+.ion-social-twitter:hover {
+	color: #00aced;
+}
+
+.ion-social-instagram:hover {
+	color: #517fa4;
+}
+

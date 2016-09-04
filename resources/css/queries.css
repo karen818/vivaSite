@@ -1,0 +1,478 @@
+
+/* Big tablet to 1500px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1500px) {
+	.logo {
+		height: 50%;
+		width: auto;
+		float: left;
+		margin-top: 5%;
+		margin-left: 2%;
+		position: absolute;
+		z-index: 0;
+	}
+	
+	figcaption {
+		font-size: 100%;
+		position: absolute;
+	}
+
+	figcaption h5 {
+		font-size: 150%;;
+		margin-top: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 1320px) {
+	.logo {
+		height: 40%;
+		width: auto;
+		float: left;
+		margin-top: 5%;
+		margin-left: 2%;
+		position: absolute;
+		z-index: 0;
+	}
+	
+	figcaption {
+		font-size: 90%;
+		position: absolute;
+	}
+
+	figcaption h5 {
+		font-size: 150%;;
+		margin-top: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 1230px) {
+	
+	.fourLBG {
+		background-image: url(img/fourlegged.jpg);
+		background-size: contain;
+		background-repeat: repeat;
+		font-family: 'Oldenburg', cursive;
+		font-size: 16px;
+		color: #000;
+	}
+	
+	figcaption {
+		font-size: 85%;
+		position: absolute;
+	}
+
+	figcaption h5 {
+		font-size: 150%;;
+		margin-top: 20px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	.logo {
+		height: 40%;
+		width: auto;
+		margin-top: 8%;
+		margin-left: 1%;
+	}
+	h1 {font-size: 200%;}
+	
+	.fourLH1 {
+		font-size: 220%;
+		text-shadow: 1px 1px #0f82f1;
+	}
+	
+	.fourLH2 {font-size: 130%;}
+	
+	.fourLH3 {font-size: 130%;}
+	
+	.fourLH4 {font-size: 120%;}
+	
+	.fourLBG {
+		background-image: url(img/fourlegged.jpg);
+		background-size: contain;
+		background-repeat: repeat;
+		font-family: 'Oldenburg', cursive;
+		font-size: 16px;
+		color: #000;
+	}
+	
+	.vivalogo {
+		height: auto;
+		width: 90%;
+		margin-left: 10%;
+		float: left;
+		padding-top: 20px;
+	}
+	
+	.early2 {
+		float: left;
+		width: 80%;
+		height: auto;
+		margin-left: 5%;
+	}
+	
+	h3 {margin-right: 20px;}
+	
+	body {font-size: 16px;}
+	
+	section {padding: 20px 20px;}
+	
+	.section-home p {padding: 10px 20px;}
+	 
+	.header-img {height: 70vh;}
+	
+	.foster-img {height: 70vh;}
+
+	.adopt-img {height: 70vh;}
+
+	.donate-img {height: 70vh;}
+
+	.contact-img {height: 70vh;}
+	
+	.fb-page, 
+	.fb-page span, 
+	.fb-page span iframe[style] { 
+		width: 100%; 
+		margin-top: 0;
+	}
+	
+	.widget-box {
+		float: left;
+		margin-left: 30%;
+	}
+	.foster-showcase figcaption {
+		line-height: 120%;
+		font-size: 90%;
+
+	}
+
+	.foster-showcase figure:hover figcaption,
+	.foster-showcase figure.cs-hover figcaption {
+		opacity: 0.85;
+		transform: translate(5px, 5px);
+	}
+	
+	
+	figcaption {
+		font-size: 100%;
+		position: absolute;
+	}
+
+	figcaption h5 {
+		font-size: 150%;;
+		margin-top: 10px;
+	}
+	
+	.appl-photo1 {
+		width: 30%;
+		float: left;
+		margin-left: 35%;
+	}
+	
+	footer p {margin-left: 20px;}
+	
+	.section-howto-donate {padding: 20px 15px;}
+	
+	.paypal {margin-left: 15%;}
+	
+	.section-other-donate img {width: 25%;}
+	
+}
+
+@media only screen and (max-width: 1100px) {
+	
+	h1,
+	.fourLH1 {font-size: 170%;}
+	
+	.fourLH1 {text-shadow: 1px 1px #0f82f1;}
+	
+	.fourLH2 {font-size: 130%;}
+	
+	.fourLH3 {font-size: 130%;}
+	
+	.fourLH4 {font-size: 120%;}
+	
+	.fourLBG {
+		background-image: url(img/fourlegged.jpg);
+		background-size: contain;
+		background-repeat: repeat;
+		font-family: 'Oldenburg', cursive;
+		font-size: 16px;
+		color: #000;
+	}
+	
+	.vivalogo {
+		height: auto;
+		width: 60%;
+		margin-left: 20%;
+		float: left;
+		padding-top: 20px;
+	}
+	
+	.early2 {display: none;}
+	.vivalogo {display: none;}
+	#twitter {display: none;}
+	#fb {display: none;}
+	
+	.logo {
+		height: 40%;
+		width: auto;
+		float: left;
+		margin-top: 1%;
+		margin-left: 1%;
+		position: absolute;
+		z-index: 0;
+	}
+	
+	.main-nav {display: none;}
+	.mobile-nav-icon { display: inline-block; }
+	
+	.main-nav { 
+		float: left;
+		margin-left: 40%;
+		text-align: center;
+		background-image: none;
+		width: 40%;
+		
+	}
+	
+	.main-nav li {
+		display: block;
+		background-color: #fff;
+			}
+	
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		color: #2f2f2f;
+		border: 0;
+		padding: 0 0 0 5px;
+		font-size: 100%;
+	}
+	
+	nav i {padding: 0 5px;}
+	
+	.foster-img {height: 70vh;}
+	
+	.inline-img-small {
+		width:30%;
+		height: auto;
+		margin-left: 35%;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	
+	.social-links li {
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.social-links li:last-of-type {
+		margin-right: 25px;
+	}
+	
+	
+	
+	.inline-img-med {
+		width: 40%;
+		margin-left: 30%;
+	}
+	
+	.inline-img-med-car {display: none;}
+	
+	.long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.widget-box {
+		float: left;
+		margin-left: 25%;
+		margin-top: 5%;
+	}
+	
+	.paypal {
+		margin-left: 40%;
+		margin-bottom: 5%;
+	}
+	
+	.contact-photo1 {display: none;}
+	
+	
+	.contact-photo2 {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.adopt-steps {
+		margin: 5%;	
+	}
+	
+	.steps-photo {
+		width: 40%;
+		margin-left: 32%;
+		float: left;
+	}
+	
+	.fb-page, 
+	.fb-page span, 
+	.fb-page span iframe[style] { 
+		width: 100%; 
+		margin-top: 5%;
+	}
+	
+	.header-img {
+		height: 50vh;
+		background-size: contain;
+	}
+	
+	.foster-img {
+		height: 50vh;
+		background-size: contain;
+	}
+
+	.adopt-img {
+		height: 50vh;
+		background-size: contain;
+	}
+
+	.donate-img {
+		height: 50vh;
+		background-size: contain;
+	}
+
+	.contact-img {
+		height: 50vh;
+		background-size: contain;
+	}
+	
+	.vivalogo {
+		height: auto;
+		width: 60%;
+		margin-left: 20%;
+		float: left;
+		padding-top: 20px;
+	}
+	
+	.early2 {
+		float: left;
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 970px){
+	.foster-showcase figcaption {display: none;}
+	
+	h1,
+	.fourLH1 {font-size: 170%;}
+	
+	.fourLH1 {text-shadow: 1px 1px #0f82f1;}
+	
+	.fourLH2 {font-size: 130%;}
+	
+	.fourLH3 {font-size: 130%;}
+	
+	.fourLH4 {font-size: 120%;}
+	
+	.fourLBG {
+		background-image: url(img/fourlegged.jpg);
+		background-size: contain;
+		background-repeat: repeat;
+		font-family: 'Oldenburg', cursive;
+		font-size: 16px;
+		color: #000;
+	}
+	
+	.vivalogo {
+		height: auto;
+		width: 60%;
+		margin-left: 20%;
+		float: left;
+		padding-top: 20px;
+	}
+	
+	.early2 {
+		float: left;
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+	}
+}
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	.logo {
+		height: 30%;
+		margin-top: 1%;
+		margin-left: 1%;
+	}
+
+	
+	h1,
+	.fourLH1 {font-size: 170%;}
+	
+	.fourLH1 {text-shadow: 1px 1px #0f82f1;}
+	
+	.fourLH2 {font-size: 130%;}
+	
+	.fourLH3 {font-size: 130%;}
+	
+	.fourLH4 {font-size: 120%;}
+	
+	.main-nav {display: none;}
+	
+	.mobile-nav-icon { display: inline-block; }
+	
+	.main-nav { 
+		float: left;
+		margin-left: 40%;
+		text-align: center;
+		background-image: none;
+		width: 40%;
+		
+	}
+	
+	.main-nav li {
+		display: block;
+		background-color: #fff;
+			}
+	
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		color: #2f2f2f;
+		border: 0;
+		padding: 0 0 0 5px;
+		font-size: 100%;
+	}
+	
+		
+	.section-home img {margin-top: 0px;}
+	
+	section {padding: 20px 20px;}
+
+	.section-home p {padding: 10px 20px;}
+	
+	footer p {margin-left: 30px;}
+	
+	.social-links li:last-of-type {margin-right: 15px;}
+	
+	.widget-box {display: none;}
+	
+	.paypal {
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
+	
+	.section-faqs span {margin-left: 5%;}
+	
+
+
+	
+}
